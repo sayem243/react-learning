@@ -1,11 +1,13 @@
 import React from 'react';
-import Todo from './components/Hook/Todo';
+import './assets/css/global.css';
+import Logo from './components/Logo';
 
 export default class App extends React.Component {
     render() {
         return (
             <div className="app">
-                <Todo />
+                {/* <Todo /> */}
+                <Logo />
             </div>
         );
     }

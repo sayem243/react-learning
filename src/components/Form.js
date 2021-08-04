@@ -52,7 +52,7 @@ class Form extends React.Component {
                     <br />
                     <br />
 
-                    <textarea name="text" value={text} onChange={this.handleChange} />
+                    <textarea type="textarea" value={text} onChange={this.handleChange} />
 
                     <br />
                     <br />
